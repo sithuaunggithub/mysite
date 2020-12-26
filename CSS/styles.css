@@ -1,0 +1,323 @@
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+body{
+	text-align: center;
+	margin: 0px;
+	background-image: linear-gradient(90deg, #086972, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, #086972);
+  background:
+}
+
+
+.header {
+  overflow-x: hidden;
+  background-color: #045762;
+  padding: 20px 3px;
+}
+
+.header a {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 3px;
+  border-radius: 4px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+.header a:hover {
+  background-color: #086972;
+  color: #a7c5eb;
+}
+
+.header a.active {
+  background-color: #086972;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .header-right {
+    float: right;
+  }
+}
+
+font-family: 'Patrick Hand', cursive;
+
+.h1{
+	font-family: 'Cookie', cursive;
+}
+
+.h2{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.h3{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.p{
+font-family: 'Roboto', sans-serif;
+}
+
+.myName{
+	font-family: 'Cookie', cursive;
+	font-size: 5rem;
+  font-weight: 900;
+  background-color: #f3ec78;
+	background-image: linear-gradient(45deg, white, #153e90);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+	margin-top: 0;
+	padding-top: 60px;
+	z-index: 3;
+	position: relative;
+}
+
+.doctor{
+	font-size: 2rem;
+	background-color: #f3ec78;
+	background-image: linear-gradient(45deg, #153e90, #fff76a);
+	background-size: 100%;
+ -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-text-fill-color: transparent;
+ 	position: relative;
+ z-index: 3;
+}
+
+.programmer{
+	padding-bottom: 100px;
+	font-size: 2rem;
+  background-color: #f3ec78;
+  background-image: linear-gradient(90deg, #153e90, #fff76a);
+  background-size: 100%;
+ -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-text-fill-color: transparent;
+ 	position: relative;
+	z-index: 3;
+}
+
+.header1{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.first-block{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0%;
+	background-color: #086972;
+}
+
+.cloud1{
+  position: absolute;
+	right: 10%;
+  max-width: 50%;
+	margin-top: 10%;
+	z-index: 3;
+	background-blend-mode: multiply;
+}
+
+.cloud2{
+  position: absolute;
+  max-width: 50%;
+	margin-bottom: 10%;
+	top: 50%;
+	left: 7%;
+	z-index: 1;
+  background-blend-mode: multiply;
+}
+
+
+
+.second-block{
+  font-family: 'Roboto', sans-serif;
+}
+
+.third-block{
+ font-family: 'Roboto', sans-serif;
+}
+
+.profile-img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.pp{
+	border-radius: 50%;
+  width: 50%;
+	max-width: 200px;
+	border: solid;
+	border-color: #f1f1f1;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	-moz-box-shadow: 15px 15px 5px #ccc;
+  -webkit-box-shadow: 15px 15px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+	transform: rotate(4deg);
+}
+
+#Hello{
+	color: #086972;
+	font-family: 'Patrick Hand', cursive;
+}
+
+#skills{
+	color: #086972;
+	padding: 3%;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 3rem;
+}
+
+.text1{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5% 10% 5%;
+}
+
+.skill1{
+	color: #086972;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0px;
+}
+
+
+.design-img{
+	width: 20%;
+	min-width: 150px;
+	border-radius: 5%;
+	left: 20%;
+	transform: rotate(-8deg);
+}
+
+.skill2{
+	color: #086972;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0px;
+}
+
+.photography-img{
+	width: 20%;
+	min-width: 150px;
+	border-radius: 5%;
+	left: 20%;
+	transform: rotate(8deg);
+}
+
+.text2{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5% 10% 5%;
+}
+
+
+.intouch{
+	color: #086972;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.intouch2{
+	color: #086972;
+}
+
+.button{
+	color: #ffffff;
+	background-color: #086972;
+	border: none;
+	border-radius: 4%;
+	padding: 10px;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.button:hover{
+	background-color: #153e90;
+}
+
+hr{
+	border-style: dotted;
+  border-bottom: none;
+	border-width: 5px;
+	width: 5%;
+	color: grey;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.footer{
+	color: white;
+	background-color: #086972;
+	padding: 0.5%;
+	line-height: 3;
+	z-index: auto;
+}
+
+.button4{
+	display: inline-flex;
+}
+
+.button5{
+	display: inline-flex;
+}
+
+.button6{
+	display: inline-flex;
+}
+
+.Linkedin{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.Facebook{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.Linkedin{
+	font-family: 'Patrick Hand', cursive;
+}
+
+.Instagram{
+	font-family: 'Patrick Hand', cursive;
+}
+.myWebsites{
+	position: relative;
+	left: 10px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.contact{
+	margin-bottom: 4px;
+	font-family: 'Patrick Hand', cursive;
+}
